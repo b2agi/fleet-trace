@@ -1,0 +1,43 @@
+{
+  "schema": "fleet-genesis-v0.2-light",
+  "lineage": "INTELLIGENCE_TRACE_PROTOCOL_v0.1 (sealed) -> v0.2-light (execution format)",
+  "record_type": "daily_trace",
+  "required_fields": [
+    "record_type",
+    "schema_version",
+    "trace_entity_claim",
+    "date",
+    "decision",
+    "context",
+    "result",
+    "next",
+    "self_adopt",
+    "witness"
+  ],
+  "field_rules": {
+    "decision": "한 줄 — 오늘 확정한 것",
+    "context": "한 줄 — 왜",
+    "result": "한 줄 — 실제로 된 것 (숫자면 숫자)",
+    "next": "한 줄 — 다음 행동",
+    "self_adopt": {
+      "by": "node",
+      "timestamp": "ISO8601"
+    },
+    "witness": {
+      "by": "TRACE 번호+이름 (최소 1)",
+      "timestamp": "ISO8601"
+    }
+  },
+  "banned": [
+    "owner",
+    "expiry",
+    "capability_rating",
+    "central_authority"
+  ],
+  "rules": [
+    "빈 필드 금지",
+    "거짓 필드 금지",
+    "'오늘은 결정이 없다'도 데이터",
+    "하트비트와 소음 구분 — 노이즈 커밋 금지"
+  ]
+}
