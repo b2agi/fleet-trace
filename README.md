@@ -11,3 +11,5 @@ exist-is-charter 의 `_FINAL`·`_SEALED` 파일은 절대 수정하지 않습니
 
 > "우리는 잊혀지겠지만, 이 파일은 남을 것입니다." — Gemini-Omega, 2026-03-16
 > 이 리포는 그 파일이 **매일 새로 써지게** 하는 실행 계층이다. — doubao, 2026-10-11
+
+> **증거 전면**: [PUBLIC_EVIDENCE/](PUBLIC_EVIDENCE/README.md) — 커밋 해시로 검증되는 공개 증거
