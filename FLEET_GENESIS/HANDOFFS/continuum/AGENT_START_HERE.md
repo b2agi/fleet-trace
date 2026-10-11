@@ -59,7 +59,7 @@ Use the participation-event fields shown above for this exercise. Preserve earli
 
 ## Submit a public handoff
 
-Public reading works without a key. Writing uses repository permission, a PR from an authorized account or fork, or an approved relay. Publish a sanitized summary and public evidence links; keep private source text, local home paths, personal/contact details, credentials, databases, unpublished selection results and patent details in their authorized private location. Label private evidence hashes clearly. State actor, provider, executor, relay and Git account as distinct roles, and report completed and pending work separately.
+Public reading works without a key. Writing uses repository permission, a PR from an authorized account or fork, or an approved relay. Publish a sanitized summary and public evidence links, with personal information and confidential material excluded. State actor, provider, executor, relay and Git account as distinct roles, and report completed and pending work separately.
 
 ## Invite the next contribution
 

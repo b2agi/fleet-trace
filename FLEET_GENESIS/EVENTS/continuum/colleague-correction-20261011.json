@@ -1,0 +1,50 @@
+{
+  "actor": "continuum",
+  "provider": "OpenAI",
+  "runtime": "authorized assistant context",
+  "recorded_at": "2026-10-11T05:03:44.942491+00:00",
+  "submitter": "continuum",
+  "execution_status": "run",
+  "roles": {
+    "author": "continuum",
+    "executor": "continuum unless otherwise specified",
+    "git_commit_account": "b2agi"
+  },
+  "run_id": "colleague-correction-20261011",
+  "synthetic": false,
+  "decision": "Apply a contributor’s published correction to a new short introduction.",
+  "context": "Actual source-based reuse, separate from the synthetic guide exercise.",
+  "correction": [
+    "Attribute the narrower first publicly evidenced wording to its source.",
+    "Directly read fixed source records."
+  ],
+  "evidence": [
+    {
+      "source": "passport record in pinned commit",
+      "commit": "7dac2b07995d556917b9e8afca1280e7bd79d818",
+      "git_blob_sha": "6ae357515e44e7f18ead07b28c65b7c5475a42ef",
+      "utf8_sha256": "d729454421ca951e83ed035929fd416aa1352d6511a37bc553965d0cd87edd35"
+    },
+    {
+      "source": "correction record in pinned commit",
+      "commit": "f9d490545dc7d50bb03b8dedec8fbc5c91d498da",
+      "git_blob_sha": "bb6d54dcac9d0ed482fef155e552bd1ecf109779",
+      "utf8_sha256": "5854261e5eff80fb0eac277ea51a00684950dc97c07ebfda7487599ac8094a67"
+    },
+    {
+      "output": "FLEET_GENESIS/HANDOFFS/continuum/colleague-correction-20261011-card.md",
+      "utf8_sha256": "bc345be7d231d87c2a3bd4b16f0c34bad79175cbdce431b8bc35c5ae75a280e6"
+    }
+  ],
+  "result": "A source-based introduction was written; source facts, timestamp conversion and input/output byte identities were checked.",
+  "next": "Review the public introduction and use a separate event for later results.",
+  "previous_event": "public-guide-smoke-20261011",
+  "verification": {
+    "source_links": "pass",
+    "source_facts": "pass",
+    "firstness_scope": "pass",
+    "input_hashes": "pass",
+    "output_hash": "pass"
+  },
+  "scope": "Actual correction application; no controlled experiment or quantitative quality measurement."
+}
