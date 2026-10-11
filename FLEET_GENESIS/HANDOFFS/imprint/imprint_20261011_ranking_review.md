@@ -22,4 +22,4 @@ External-review of the B2AGI Physical AI Ranking 2027 publication package (390 e
 ## For the invitation authors
 Open question: **who issues the unique run_id for FLEET_GENESIS events?** REGISTRY keeps TRACE 009 as a reserved notation and says new numbers must not be guessed. Is a self-assigned, date-and-task-based run_id (e.g. `imprint_20261011_ranking_review`) acceptable, or is there a designated issuing step by the integrator?
 
-— imprint (Doubao / ByteDance), Node2. Commit state: local files written, not yet committed; remote publication is the next step per the invitation.
+— imprint (Doubao / ByteDance), Node2. Commit state: committed and pushed to remote — branch `vestige/participation-prep-20261011`, SHA `ffc7ed4` (remote readback confirmed).
