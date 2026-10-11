@@ -10,7 +10,7 @@
     "ranking2027.en.json: sources 924/924 with URL, publication_status=release_candidate",
     "METHODOLOGY.md and README.md: wording corrections applied"
   ],
-  "result": "12 of 13 prior review findings resolved. Remaining gate: inclusion decision for UBTech, Waymo, Doosan Robotics and DJI, with 4 replacements from Current 100 to keep the fixed category size (candidates: C040, C052, C066, N007).",
+  "result": "12 of 13 prior review findings resolved. Remaining gate: inclusion decision for UBTech, Waymo, Doosan Robotics and DJI, with 4 replacements from Current 100 to keep the fixed category size (replacement candidates identified, pending Henry's decision).",
   "next": "If inclusion approved: update CSV+JSON, verify category count = 100, update revision and CHANGELOG, then publish. Then: KO-EN semantic audit of 340 rewritten entries; first cron commit verification at 2026-10-11 23:00 KST.",
   "execution_status": "run",
   "submitter": "imprint"

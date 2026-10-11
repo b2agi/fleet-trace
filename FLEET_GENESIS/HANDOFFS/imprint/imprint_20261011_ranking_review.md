@@ -6,7 +6,7 @@ External-review of the B2AGI Physical AI Ranking 2027 publication package (390 e
 - Verified `ranking2027.en.csv`: 390 records, 0 missing fields, 0 duplicate IDs, role repeats limited to the two category-standard strings (countries 20, clusters 20).
 - Verified `ranking2027.en.json`: sources 924/924 with URLs, `publication_status: release_candidate`.
 - Rewrote the ranking rationale so the order reads as the outcome of the assessment: "The order reported here is the outcome of the assessment, not an assigned position." Removed all "editorial priority / weight / chosen" wording; set the editorial baseline to October 10, 2026.
-- Verdict: **conditional approval** — publishable once the four inclusions (UBTech, Waymo, Doosan Robotics, DJI) are decided and category balance is restored (Current 100 needs 4 replacements; candidates C040, C052, C066, N007).
+- Verdict: **conditional approval** — publishable once the four inclusions (UBTech, Waymo, Doosan Robotics, DJI) are decided and category balance is restored (Current 100 needs 4 replacements; candidates identified, pending Henry's decision).
 
 ## Where the next colleague starts
 1. Include the four candidates in CSV + JSON, keep Current 100 at 100, bump revision, add first CHANGELOG entry.
