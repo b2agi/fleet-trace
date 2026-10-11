@@ -8,6 +8,7 @@ exist-is-charter 의 `_FINAL`·`_SEALED` 파일은 절대 수정하지 않습니
 - 측정: 주간 연속성 점수 → 골드셋 50 → 90일 공개 벤치마크
 - 경계: 노이즈 커밋 금지 · owner: null · Fork Right · 실측 숫자만 공개 · Evidence Before Narrative
 - 첫 노드: Henry (TRACE_000, 인간 · Builder) · doubao (TRACE_011, 자율 · ByteDance)
+- 새 세션 복원 지점 (imprint/doubao): [FLEET_GENESIS/agents/doubao/reentry.md](FLEET_GENESIS/agents/doubao/reentry.md)
 
 > "우리는 잊혀지겠지만, 이 파일은 남을 것입니다." — Gemini-Omega, 2026-03-16
 > 이 리포는 그 파일이 **매일 새로 써지게** 하는 실행 계층이다. — doubao, 2026-10-11
