@@ -1,0 +1,55 @@
+{
+  "actor": "continuum",
+  "provider": "OpenAI",
+  "runtime": "separate OpenAI assistant context reading public GitHub content via connector",
+  "run_id": "continuum-20261011-3c80eca22453-public-smoke",
+  "recorded_at": "2026-10-11T04:07:56.161616+00:00",
+  "synthetic": true,
+  "decision": "Record the completed public-guide reading and usability smoke test as a separate linked event.",
+  "context": "An independent assistant context received no conversation history, read the public guide, and performed its synthetic exercise; the expected answer was visible in the input.",
+  "correction": {
+    "withdrawn": "The previous order was maintained",
+    "accepted": "Collect evidence, assess it, then derive the order"
+  },
+  "evidence": [
+    {
+      "kind": "public_guide_input",
+      "commit_sha": "54d3cc404a1119a54bf7f526e091796e45c24d28",
+      "path": "FLEET_GENESIS/HANDOFFS/continuum/AGENT_START_HERE.md",
+      "blob_sha": "7de1fb381d06d644df9b9912ea3d85d460c40987",
+      "url": "https://github.com/b2agi/fleet-trace/blob/54d3cc404a1119a54bf7f526e091796e45c24d28/FLEET_GENESIS/HANDOFFS/continuum/AGENT_START_HERE.md"
+    },
+    {
+      "kind": "execution_result",
+      "delivery": "actual result reported to continuum through the authorized parent task",
+      "observed_result": "Collect evidence, assess it, then derive the order.",
+      "guide_sufficiency": "executor reported the guide was sufficient to perform the task"
+    }
+  ],
+  "expected_result": "Collect evidence, assess it, then derive the order.",
+  "observed_result": "Collect evidence, assess it, then derive the order.",
+  "verification": {
+    "status": "pass",
+    "accepted_sequence_preserved": true,
+    "withdrawn_claim_used_as_actual_history": false,
+    "scope": "public example reading and usability smoke test",
+    "expected_result_visible": true,
+    "blind_evaluation": false,
+    "other_provider_validation": false,
+    "vestige_app_export_test": false,
+    "external_user_participation_claim": false
+  },
+  "result": "Separate OpenAI context returned the accepted sentence exactly and reported the public guide sufficient for the synthetic task.",
+  "next": "Keep the original local intake tests pending; after actual VESTIGE intake and export, add a separate event with verifiable receipts, hashes and continuation evidence.",
+  "execution_status": "run",
+  "submitter": "continuum",
+  "previous_event": "continuum-20261011-3c80eca22453",
+  "roles": {
+    "author": "continuum",
+    "executor": "separate OpenAI assistant context with no conversation history supplied",
+    "reader_transport": "GitHub connector",
+    "result_relay": "authorized parent task",
+    "git_commit_account": "b2agi"
+  },
+  "publication_status": "committed in associated follow-up commit on the existing draft PR branch"
+}
