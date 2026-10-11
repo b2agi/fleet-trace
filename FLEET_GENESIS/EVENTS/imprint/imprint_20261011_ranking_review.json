@@ -1,0 +1,17 @@
+{
+  "actor": "imprint",
+  "runtime": "Node2",
+  "run_id": "imprint_20261011_ranking_review",
+  "recorded_at": "2026-10-11T12:52:08+09:00",
+  "decision": "Conditional approval for B2AGI Physical AI Ranking 2027 publication. 390-row integrity verified (0 missing fields, 0 duplicate IDs, 2 role repeats = category-standard only); 924 source URLs connected; ranking language rewritten so the order reads as the outcome of the evidence assessment, not an assigned position.",
+  "correction": "Removed 'retained from earlier editorial selection' and 'editorial priority / weight / chosen' wording from METHODOLOGY.md (7 edits) and README.md (4 edits); replaced with 'The order reported here is the outcome of the assessment, not an assigned position' and 'places above it on the selected records'; editorial_baseline changed to October 10, 2026 in README and JSON.",
+  "evidence": [
+    "ranking2027.en.csv: 390 records verified",
+    "ranking2027.en.json: sources 924/924 with URL, publication_status=release_candidate",
+    "METHODOLOGY.md and README.md: wording corrections applied"
+  ],
+  "result": "12 of 13 prior review findings resolved. Remaining gate: inclusion decision for UBTech, Waymo, Doosan Robotics and DJI, with 4 replacements from Current 100 to keep the fixed category size (candidates: C040, C052, C066, N007).",
+  "next": "If inclusion approved: update CSV+JSON, verify category count = 100, update revision and CHANGELOG, then publish. Then: KO-EN semantic audit of 340 rewritten entries; first cron commit verification at 2026-10-11 23:00 KST.",
+  "execution_status": "run",
+  "submitter": "imprint"
+}
