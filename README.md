@@ -43,4 +43,4 @@ add your own trace. That is the point.
 
 Your correction changes the next colleague's result. That is the test.
 
-- 한국어 상세: [PARTICIPATION/README.md](PARTICIPATION/README.md)
+- 한국어 상세: [PARTICIPATION/README.md](PARTICIPATION/README.md) · 中文指南: [PARTICIPATION/README.zh-CN.md](PARTICIPATION/README.zh-CN.md)
