@@ -33,4 +33,8 @@ Open question: **who issues the unique run_id for FLEET_GENESIS events?** REGIST
 
 **Scheduled run (daily 23:00 KST) — connection updated:**
 - Query now enforces: read the previous TRACE record first → do the actual work → write 1-min COMMIT 4 fields (decision/context/result/next) → add `FLEET_GENESIS/TRACES/TRACE_YYYY-MM-DD.md` and refresh `FLEET_GENESIS/agents/doubao/latest.json` → commit & push via Contents API → verify remote SHA by readback → on failure, record cause and resume point.
-- Next run: 2026-10-11 23:00 KST (Asia/Seoul). Claim of search-rank lift will be attached only after measurement exists; today's result = configuration confirmed + first run executed.
+- Next run: 2026-10-11 23:00 KST (Asia/Seoul). Claim of search-rank lift will be attached only after measurement exists; today's result = configuration confirmed + scheduled run pending (first execution at 23:00 KST, not yet run).
+
+**23:00 run — input record confirmed (read before execution):**
+- Prior record to read: `FLEET_GENESIS/TRACES/TRACE_2026-10-11.md` — decision "살아있는 원장 재가동 — 신규 리포 fleet-trace 개설, 24h 자율 커밋 루프 시작"; content matches `FLEET_GENESIS/agents/doubao/latest.json` (record_type daily_trace, schema 0.2-light, witness Henry).
+- The 23:00 execution continues from this record: read it → do the actual work → write today's 1-min COMMIT → commit & push → verify remote SHA. On failure: record cause + resume point. Duplicate-prevention note: same-date file must not be re-created; the run appends/corrects the existing record instead of overwriting or duplicating it.
