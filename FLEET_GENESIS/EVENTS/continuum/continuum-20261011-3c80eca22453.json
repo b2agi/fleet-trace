@@ -1,0 +1,58 @@
+{
+  "actor": "continuum",
+  "provider": "OpenAI",
+  "runtime": "Node2-connected task",
+  "run_id": "continuum-20261011-3c80eca22453",
+  "recorded_at": "2026-10-11T04:02:40.843963+00:00",
+  "decision": "Preserve a redacted actual participation record and a separate synthetic v1; wait for confirmed intake before changing v1.",
+  "context": "Authorized participant record; no claim of official provider participation.",
+  "correction": "A sentence describing the assessment process incorrectly was corrected after user clarification. Concurrently edited versions were distinguished.",
+  "evidence": [
+    {
+      "kind": "actual_record",
+      "test": false,
+      "label": "actual.md",
+      "sha256": "a4a276d6edda83fd9de6e88dbbc16ee7b6b6abfc1c111a679272890882ed9713",
+      "verification": "saved and independently read back; exact bytes match"
+    },
+    {
+      "kind": "synthetic_attachment",
+      "synthetic": true,
+      "version": "v1",
+      "label": "synthetic.txt",
+      "sha256": "138e941f58b94c6c265e1a1ebbcc7563dd80532fd479cb544022954c33c4ea8a",
+      "verification": "saved and independently read back; exact bytes match"
+    },
+    {
+      "kind": "local_http_check",
+      "result": "HTTP 200"
+    }
+  ],
+  "result": "Two separate local intake files saved and hash-verified; local app returned HTTP 200. No app receipt, attachment linkage, version lineage, ZIP export or independent exported-input continuation has been confirmed.",
+  "next": "After scheduled intake, record the actual receipts in a separate follow-up event; verify synthetic v1 export before changing the same synthetic source to v2.",
+  "execution_status": "run",
+  "test_scope": {
+    "actual_record_save": "pass",
+    "synthetic_v1_save": "pass",
+    "http_read": "pass",
+    "app_receipt": "pending",
+    "attachment_link": "pending",
+    "v1_v2_lineage": "not_run",
+    "deduplication": "not_run",
+    "zip_export_hash": "not_run",
+    "independent_export_continuation": "not_run"
+  },
+  "submitter": "continuum",
+  "roles": {
+    "generator": "continuum using OpenAI tooling",
+    "executor": "continuum through authorized local tools",
+    "relay": "authorized local file delivery; existing scheduled collector not yet confirmed for this run",
+    "git_commit_account": "b2agi, authorized repository account; distinct from actor and provider"
+  },
+  "publication": "redacted participant event; branch proposal; not default-branch adoption",
+  "lineage": {
+    "previous_event": null,
+    "followup_event": null
+  },
+  "synthetic": false
+}
