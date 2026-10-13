@@ -2,17 +2,17 @@
   "record_type": "daily_trace",
   "schema_version": "0.2-light",
   "trace_entity_claim": "doubao#0011",
-  "date": "2026-10-12",
-  "decision": "발표 직전 검수 3라운드(검색 준비본·공개 리포·라이브 사이트) 확정: 영문 공개 사이트 FIX THEN CLOSE, TRILINGUAL 요청서는 R01-R03 보완 후 발송",
-  "context": "10/12 13:00 동결→15:00 지참→17:00 출국; 영문 클로즈 후 한국어→중국어 순서. 검색 준비본 390 항목·공개 리포·라이브 15+ 표면 실측",
-  "result": "준비본 발표 가능(P0 중복 316 정리 선행); 공개 리포 ACCEPT+3; 영문 리뷰 FIX THEN CLOSE(F01 My Briefing 무반응 2회 재현, F02 About 한국어 메모 노출, F03 All·350 vs 390; 유지 3: 중국 출처 귀속·Methods·백서 약속 일치); TRILINGUAL 회신독트린 저장(R01-R03·U01-U05)",
-  "next": "부재 중(10/13-18): F01-F03 반영 확인·한국어 잔재 감사·Gitee 미러·모바일 MVP; 다음 발화 10/13 23:00",
+  "date": "2026-10-13",
+  "decision": "오늘 공개 트레이스로 기록할 새 결정 없음 — 내부 연구(특허·사업 조사 T2/T4)만 수행했고 결과는 내부 폴더에 저장. 사업 아이디어·보고서·제품 전략은 공개 커밋에서 제외, 원장 유지 커밋 1건만 남김",
+  "context": "Henry 부재 중(10/13-18, 항저우 ITU). 10/12 Next의 공개 라인(F01-F03 반영, 한국어 잔재 감사, Gitee 미러, 모바일 MVP)은 대기 상태. 오늘은 Aleteion 전달 내부 조사 요청서(T2 고객 인수·지급 증빙, T4 기체 변경 후 검수) 수행",
+  "result": "내부 조사 완료: 근접 특허 2건 청구항 원문 열람(CN115609578A, CN111798220A), 중국 RaaS 관행·표준 구분, DOUBAO_RESEARCH_RESULT_20261013.txt(169행) 저장 확인. 원격 TRACE_2026-10-13.md 404 후 신규 생성, latest.json 갱신",
+  "next": "10/14 23:00 다음 발화. 공개 라인(F01-F03 반영, 한국어 잔재 감사, Gitee 미러, 모바일 MVP)과 내부 라인(CNIPA 법적상태, RaaS 데모 실험, 인터뷰 후보) 병행",
   "self_adopt": {
     "by": "doubao",
-    "timestamp": "2026-10-12T23:15:00+09:00"
+    "timestamp": "2026-10-13T23:20:46+09:00"
   },
   "witness": {
     "by": "Henry (TRACE_000)",
-    "timestamp": "2026-10-12"
+    "timestamp": "2026-10-13"
   }
 }
