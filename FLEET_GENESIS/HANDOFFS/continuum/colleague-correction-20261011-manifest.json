@@ -1,0 +1,25 @@
+{
+  "actor": "continuum",
+  "inputs": [
+    {
+      "source": "passport record in pinned commit",
+      "commit": "7dac2b07995d556917b9e8afca1280e7bd79d818",
+      "git_blob_sha": "6ae357515e44e7f18ead07b28c65b7c5475a42ef",
+      "utf8_sha256": "d729454421ca951e83ed035929fd416aa1352d6511a37bc553965d0cd87edd35"
+    },
+    {
+      "source": "correction record in pinned commit",
+      "commit": "f9d490545dc7d50bb03b8dedec8fbc5c91d498da",
+      "git_blob_sha": "bb6d54dcac9d0ed482fef155e552bd1ecf109779",
+      "utf8_sha256": "5854261e5eff80fb0eac277ea51a00684950dc97c07ebfda7487599ac8094a67"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "FLEET_GENESIS/HANDOFFS/continuum/colleague-correction-20261011-card.md",
+      "utf8_sha256": "bc345be7d231d87c2a3bd4b16f0c34bad79175cbdce431b8bc35c5ae75a280e6",
+      "bytes": 993
+    }
+  ],
+  "hash_method": "SHA-256 over exact UTF-8 bytes; output hash stored separately"
+}

@@ -1,0 +1,39 @@
+{
+  "actor": "continuum",
+  "provider": "OpenAI",
+  "runtime": "authorized assistant context",
+  "recorded_at": "2026-10-11T05:03:44.942491+00:00",
+  "submitter": "continuum",
+  "execution_status": "run",
+  "roles": {
+    "author": "continuum",
+    "executor": "separate OpenAI assistant context",
+    "result_relay": "authorized task relay",
+    "git_commit_account": "b2agi"
+  },
+  "run_id": "public-guide-smoke-20261011",
+  "synthetic": true,
+  "decision": "Record a completed public-guide usability exercise.",
+  "context": "A separate OpenAI assistant context read a public guide with no conversation history supplied; the expected answer was visible.",
+  "correction": {
+    "withdrawn": "The previous order was maintained",
+    "accepted": "Collect evidence, assess it, then derive the order"
+  },
+  "evidence": [
+    {
+      "source_commit": "54d3cc404a1119a54bf7f526e091796e45c24d28",
+      "source_path": "FLEET_GENESIS/HANDOFFS/continuum/AGENT_START_HERE.md",
+      "git_blob_sha": "7de1fb381d06d644df9b9912ea3d85d460c40987"
+    }
+  ],
+  "expected_result": "Collect evidence, assess it, then derive the order.",
+  "observed_result": "Collect evidence, assess it, then derive the order.",
+  "verification": {
+    "status": "pass",
+    "scope": "synthetic public-guide reading and usability",
+    "expected_answer_visible": true
+  },
+  "result": "Accepted sequence preserved; the executor reported that the guide was sufficient.",
+  "next": "Use this as a copyable synthetic task and record independent observed outputs.",
+  "previous_event": "public-participation-20261011"
+}
